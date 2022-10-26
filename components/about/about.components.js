@@ -7,15 +7,15 @@ const About = () => {
     return (
         <section id="about" className={styles["about-container"]}>
             <div className={styles["about-right"]}>
-            <SectionTitle title="About" />
+            <SectionTitle title="En quelques mots..." />
                 <p className={styles["introducing"]}>
-                    Hello, Je suis Benoit Sentenac-Réou mais même ma maman m'appelle ben!
-                    Je suis développeur web et je suis là pour vous aider à réaliser vos projets!
-                    passioneé par le code et les défis je suis toujours curieux d'apprendre de nouvelles choses...
+                Développeur free-lance, 5 ans d’expériences, spécialisé dans la conception et la réalisation de site internet. 
+                Vous avez une idée, vous souhaitez développer votre visibilité sur le web ? 
+                Buvons un café ou une petite bière et parlons ensemble de votre projet!
                 </p>
                 <div className={styles["resume"]}>
                     <div className="link">
-                        <a href="/#">Curriculum Vitae</a>
+                        <a target="_blank" rel="noreferrer" media="print" href="http://localhost:3000/uploads/cv/Benoit_Sentenac_Réou_CV.pdf">Curriculum Vitae</a>
                     </div>
                 </div>
             </div>

@@ -12,7 +12,7 @@ const Layout = ({ children }) => {
                 <Navigation />
                 {children}
             </div>
-            <SocialSidebar className="social-fixed-left"/>
+            <SocialSidebar theme={ theme } className="social-fixed-left"/>
         </>
     );
 };

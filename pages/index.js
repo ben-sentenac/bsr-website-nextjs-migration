@@ -3,6 +3,9 @@ import About from "../components/about/about.components";
 import { ProjectsContextProvider } from "../context/project.context";
 import Portfolio from "../components/portfolio/portfolio.components";
 import { Prices } from "../components/prestations/prestations.components";
+import Contact from "../components/contact/contact.components";
+
+
 const Index = () => {
     return (
         <ProjectsContextProvider>
@@ -11,6 +14,7 @@ const Index = () => {
                 <About />
                 <Portfolio />
                 <Prices />
+                <Contact/>
             </div>
         </ProjectsContextProvider>
     );

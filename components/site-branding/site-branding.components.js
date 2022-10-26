@@ -24,7 +24,7 @@ const SiteBranding = () => {
         <section id="home" className={styles["site-branding"]}>
             <ThemeSwitcher clickHandler={switchTheme}>switch theme </ThemeSwitcher>
             <div className={styles["intro-text"]}>
-                <h1 className={`${styles["site-title"]} ${styles["t-shadow-3d"]}`}>{`{ Benoit Sentenac-Réou }`}</h1>
+                <h1 className={`${styles["site-title"]} ${styles["t-shadow-3d"]}`}>{`< Benoit Sentenac-Réou />`}</h1>
                 <h2 className={styles["branding-title"]}>Création de site internet</h2>
                 <h3 className={styles["t-shadow-3d"]}>Développeur Web freelance</h3>
             </div>
