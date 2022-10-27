@@ -2,7 +2,7 @@ import { Html, Head, Main, NextScript } from 'next/document'
 
 export default function Document() {
   return (
-    <Html>
+    <Html lang='fr'>
       <Head>
       <meta name="description" content="Developpeur freelance situé 
       à foix en Ariège spécialisé dans la création et la conception de site internet. Site vitrine, e-commerce, site sur-mesure..."/>
