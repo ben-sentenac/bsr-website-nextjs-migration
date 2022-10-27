@@ -11,7 +11,7 @@ const About = () => {
                 <p className={styles["introducing"]}>
                 Développeur free-lance, 5 ans d’expériences, spécialisé dans la conception et la réalisation de site internet. 
                 Vous avez une idée, vous souhaitez développer votre visibilité sur le web ? 
-                Buvons un café ou une petite bière et parlons ensemble de votre projet!
+                Buvons un café et parlons ensemble de votre projet!
                 </p>
                 <div className={styles["resume"]}>
                     <div className="link">
