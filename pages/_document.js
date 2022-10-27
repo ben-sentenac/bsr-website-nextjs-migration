@@ -5,8 +5,9 @@ export default function Document() {
     <Html>
       <Head>
       <link rel="preconnect" href="https://fonts.googleapis.com"/>
-		<link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="true"/>
-		<link href="https://fonts.googleapis.com/css2?family=Anonymous+Pro&family=Press+Start+2P&display=swap" rel="stylesheet"/>
+		  <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="true"/>
+		  <link href="https://fonts.googleapis.com/css2?family=Anonymous+Pro&family=Press+Start+2P&display=swap" rel="stylesheet"/>
+      <title>Benoit sentenac Réou | Création de site internet</title>
       </Head>
       <body>
         <Main />
