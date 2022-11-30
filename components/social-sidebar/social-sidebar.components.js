@@ -9,16 +9,10 @@ import styles from './social-sidebar.module.scss';
 const SocialSidebar = ({ className,theme }) => (
     <div className={`${styles["socials"]} ${styles[theme]} ${styles[className] ?? ''}`}>
         <div className={styles["social-link"]}>
-            <Phone />
+            <a target="_blank" href="https://www.linkedin.com/in/benoit-sentenac-r%C3%A9ou-91b566193/"><Linkedin /></a>
         </div>
         <div className={styles["social-link"]}>
-            <Mail />
-        </div>
-        <div className={styles["social-link"]}>
-            <Linkedin />
-        </div>
-        <div className={styles["social-link"]}>
-            <Git />
+           <a target="_blank" href="https://github.com/ben-sentenac/"><Git /></a>
         </div>
 
     </div>

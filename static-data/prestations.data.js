@@ -75,8 +75,8 @@ const PRESTATION_DATA = [
     {
         id: 5,
         name: "Developement spécifiques",
-        techno:"Php : (laravel ou slim framework),react,wordpress",
-        price: "400/jours",
+        techno:"PHP(laravel ou slim framework),REACT/NEXTJS,WORDPRESS(plugins,thème)",
+        price: "400 euros/jours",
         details:[]
     },
 

@@ -15,7 +15,7 @@ const ProjectModalBox = ({ visible,clickHandler, project }) => {
                         <li>{ task }</li>
                     </ul>)}
                     <div className={styles["modal-background-image"]} style={{ backgroundImage: `url(${image})` }} ></div>
-                    <div className="project-link">
+                    <div className={styles["project-link"]}>
                         <a rel="noreferrer" target="_blank" title={url} href={ url }>visiter le site web</a>
                     </div>
                 </div>

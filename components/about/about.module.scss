@@ -9,7 +9,14 @@
         }
     }
 }
-
+.resume {
+    a {
+        color:var(--textColor);
+        &:visited {
+            color:var(--textColor);
+        }
+    }
+}
 @media(max-width:538px) {
     .about-left {
         svg.portrait {

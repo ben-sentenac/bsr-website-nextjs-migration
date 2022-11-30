@@ -15,7 +15,7 @@ const About = () => {
                 </p>
                 <div className={styles["resume"]}>
                     <div className="link">
-                        <a target="_blank" rel="noreferrer" media="print" href="http://localhost:3000/uploads/cv/Benoit_Sentenac_Réou_CV.pdf">Curriculum Vitae</a>
+                        <a download target="_blank" rel="noreferrer noopener" media="print" href="/uploads/cv/Benoit_Sentenac_Réou_CV.pdf">Curriculum Vitae</a>
                     </div>
                 </div>
             </div>

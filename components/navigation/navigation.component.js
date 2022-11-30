@@ -18,11 +18,11 @@ const Navigation = () => {
                 <span className={styles["hamburger-span"]}></span>
             </div>
             <nav className={`${styles["main-navbar"]} ${ visible ? styles["visible"] :  ''}`}>
-                <a className={styles["nav-link"]} href="#home">Home</a>
-                <a className={styles["nav-link"]} href="#about">About</a>
-                <a className={styles["nav-link"]} href="#portfolio">Portfolio</a>
-                <a className={styles["nav-link"]} href="#tarifs">Tarifs</a>
-                <a className={styles["nav-link"]} href="#contact">Contact</a>
+                <a className={styles["nav-link"]} href="/">Home</a>
+                <a className={styles["nav-link"]} href="/#about">About</a>
+                <a className={styles["nav-link"]} href="/#portfolio">Portfolio</a>
+                <a className={styles["nav-link"]} href="/#tarifs">Tarifs</a>
+                <a className={styles["nav-link"]} href="/#contact">Contact</a>
             </nav>
         </header>
     );

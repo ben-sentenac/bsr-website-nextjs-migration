@@ -10,7 +10,7 @@ const Portfolio = () => {
     const { projects,loading } = useContext(ProjectsContext);
     return (
         <section id="portfolio" className={styles["portfolio-container"]}>
-                <SectionTitle title="Portfolio" />
+                <SectionTitle title="Quelques projets..." />
                 {loading ? <p>loading data</p> : <Projects projects={projects} />}
         </section>
     )
