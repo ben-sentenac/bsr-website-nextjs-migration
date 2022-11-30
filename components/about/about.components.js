@@ -9,7 +9,7 @@ const About = () => {
             <div className={styles["about-right"]}>
             <SectionTitle title="En quelques mots..." />
                 <p className={styles["introducing"]}>
-                Développeur free-lance, 5 ans d’expériences, spécialisé dans la conception et la réalisation de site internet. 
+                Développeur freelance, 5 ans d’expériences, spécialisé dans la conception et la réalisation de site internet. 
                 Vous avez une idée, vous souhaitez développer votre visibilité sur le web ? 
                 Buvons un café et parlons ensemble de votre projet!
                 </p>
