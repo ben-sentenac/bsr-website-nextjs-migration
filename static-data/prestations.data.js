@@ -5,7 +5,7 @@ const PRESTATION_DATA = [
         techno:"Wordpress",
         price: "à partir de 800 euros",
         details:[
-            "3 pages site responsive, (adaptée mobile et tablette)",
+            "3 pages site responsive, (site adapté mobile et tablette)",
             "Interface administrateur standard",
             "Formulaire de contact + google map",
             "integration du contenu",
@@ -21,7 +21,7 @@ const PRESTATION_DATA = [
         price: "à partir de 1400 euros",
         details:[
             "5 pages",
-            "site responsive, (adaptée mobile et tablette)",
+            "site responsive, (site adapté mobile et tablette)",
             "Page d'acceuil personalisée",
             "Interface administrateur standard",
             "integration du contenu",
@@ -58,7 +58,7 @@ const PRESTATION_DATA = [
         techno: "Wordpress, Woocommerce",
         price: "à partir de 2800 euros",
         details:[
-            "site responsive, (adaptée mobile et tablette)",
+            "site responsive, (site adapté mobile et tablette)",
             " Page d'acceuil personalisée",
             "Interface administrateur standard",
             "integration du contenu et des articles de la boutique",
@@ -74,7 +74,7 @@ const PRESTATION_DATA = [
     }, 
     {
         id: 5,
-        name: "Developement spécifiques",
+        name: "Developements spécifiques",
         techno:"PHP(laravel ou slim framework),REACT/NEXTJS,WORDPRESS(plugins,thème)",
         price: "400 euros/jours",
         details:[]
